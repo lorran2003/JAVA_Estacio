@@ -1,4 +1,4 @@
-package exercicios.exercicio03;
+package src.lista_execicios01.questao07;
 
 import java.util.ArrayList;
 import java.util.Scanner;

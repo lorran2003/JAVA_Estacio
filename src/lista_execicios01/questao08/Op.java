@@ -1,4 +1,4 @@
-package exercicios.exercicio04;
+package src.lista_execicios01.questao08;
 
 public class Op {
     private String expressao;

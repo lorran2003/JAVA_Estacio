@@ -1,4 +1,4 @@
-package exercicios.exercicio02.While;
+package src.lista_execicios01.questao06.While;
 
 import java.util.Scanner;
 

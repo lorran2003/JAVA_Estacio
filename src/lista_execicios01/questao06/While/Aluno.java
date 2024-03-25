@@ -1,4 +1,4 @@
-package exercicios.exercicio02.While;
+package src.lista_execicios01.questao06.While;
 public class Aluno {
     private String nome;
     private float nota1;
