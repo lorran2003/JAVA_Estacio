@@ -1,0 +1,17 @@
+A)
+    Classe Turma:
+        Atributos: identificação da turma, lista de disciplinas.
+
+    Classe Disciplina:
+        Atributos: nome da disciplina, código da disciplina, professor, sala.
+
+B)
+
+    Calsse Transportadora:
+        Atributos: nome da transportadora, lista de caminhões, lista de motoristas.
+    
+    Classe Caminhão:
+        Atributos: placa do caminhão, modelo, ano de fabricação, localização atual.
+    
+    Classe Motorista:
+        Atributos: nome do motorista, número da carteira de motorista, localização atual.
