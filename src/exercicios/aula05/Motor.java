@@ -1,18 +1,29 @@
 package src.exercicios.aula05;
 
-public class Motor {
+public abstract class Motor {
     private float cilindrada;
     private int numero;
     private String fabricate;
+    private int velocidadeMax;
 
+    
     //metodo construtor
     public Motor(float cilindrada, int numero, String fabricate) {
         this.cilindrada = cilindrada;
         this.numero = numero;
         this.fabricate = fabricate;
+        
     }
     
     //metodos get e set
+    public int getVelocidadeMax() {
+        return velocidadeMax;
+    }
+
+    public void setVelocidadeMax(int velocidadeMax) {
+        this.velocidadeMax = velocidadeMax;
+    }
+
     public float getCilindrada() {
         return cilindrada;
     }
@@ -35,6 +46,11 @@ public class Motor {
 
     public void setFabricate(String fabricate) {
         this.fabricate = fabricate;
+    }
+
+    @Override
+    public String toString() {
+        return "Cilindrada: " + this.getCilindrada() + "\nNumero do motor: " + this.getNumero() + "\nFabricate: " + this.getFabricate() + "\nVelocidade maxima: " + this.getVelocidadeMax() + "\n";
     }
 
     
