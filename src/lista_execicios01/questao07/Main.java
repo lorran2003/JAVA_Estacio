@@ -72,7 +72,7 @@ public class Main {
         // Imprimir detalhes dos alunos
         for (Aluno aluno : arrayList) {
             aluno.status();
-            somaDasMedias += aluno.media();
+            somaDasMedias += aluno.getMedia();
         }
 
         float mediaDaTurma = somaDasMedias / arrayList.size();
@@ -86,24 +86,23 @@ public class Main {
 
         //Verificando a maior e menor nota
         for(Aluno aluno : arrayList){
-            float media = aluno.media();
 
-            if(media > maiorNota){
-                maiorNota = media;
+            if(aluno.getMedia() > maiorNota){
+                maiorNota = aluno.getMedia();
             }
-            if (media < menorNota) {
-                menorNota = media;
+            if (aluno.getMedia() < menorNota) {
+                menorNota = aluno.getMedia();
             }
         }
 
         //identificando o aluno com a maior e menor nota
         for(Aluno aluno : arrayList){
 
-            if (maiorNota == aluno.media()) {
+            if (maiorNota == aluno.getMedia()) {
 
                 aluno.statusMaiorNota();
             }
-            if(menorNota == aluno.media()){
+            if(menorNota == aluno.getMedia()){
 
                 aluno.statusMenorNota();
             }
