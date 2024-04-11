@@ -1,0 +1,20 @@
+Similaridades:
+
+    Todas são IDEs populares usadas para o desenvolvimento de software em várias linguagens de programação, incluindo Java, C/C++, Python, etc.
+    Todas oferecem suporte a recursos avançados de desenvolvimento, como depuração, controle de versão, sugestões de código, refatoração, entre outros.
+    São multiplataforma, ou seja, estão disponíveis para Windows, macOS e Linux.
+    Possuem uma comunidade ativa de usuários, o que significa que há uma grande quantidade de recursos, plugins e suporte disponíveis.
+
+Diferenças:
+
+    NetBeans: Desenvolvido pela Apache Software Foundation, o NetBeans é conhecido por sua facilidade de uso e sua integração perfeita com o ecossistema Java. Possui uma interface intuitiva e oferece suporte para várias linguagens de programação além do Java.
+
+    Eclipse: Desenvolvido pela Eclipse Foundation, o Eclipse é altamente extensível e personalizável através de plugins. É amplamente utilizado na indústria e academia e é conhecido por sua flexibilidade e robustez.
+
+    IntelliJ IDEA: Desenvolvido pela JetBrains, o IntelliJ IDEA é reconhecido por sua inteligência artificial integrada que oferece sugestões de código inteligentes e refatoração avançada. Possui uma curva de aprendizado um pouco mais íngreme, mas é altamente elogiado por sua eficiência e produtividade.
+
+Percentual de uso no mercado (dados aproximados de acordo com pesquisas e análises recentes):
+
+        NetBeans: Cerca de 1% a 2% do mercado de IDEs.
+        Eclipse: Cerca de 20% a 25% do mercado de IDEs.
+        IntelliJ IDEA: Cerca de 65% a 70% do mercado de IDEs.

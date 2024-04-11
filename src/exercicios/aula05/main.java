@@ -1,7 +1,8 @@
 package src.exercicios.aula05;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main (String[] args) throws Exception {
+        
         //declarando objeto
         Carro carro[] = new Carro[5];
 

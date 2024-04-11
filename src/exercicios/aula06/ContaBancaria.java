@@ -1,5 +1,4 @@
-
-package com.mycompany.aula06;
+package src.exercicios.aula06;
 
 import java.text.DateFormat;
 import java.text.DecimalFormat;
